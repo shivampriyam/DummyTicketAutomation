@@ -16,7 +16,7 @@ public class Main {
 		new HomePage(driver).getHomePage()
 							.searchBox("BackPack")
 							.sortProduct()
-							.selectProduct()
+							.selectProduct() 
 							.checkOut();
 		
 		new Checkout(driver).fillShippingAddress()

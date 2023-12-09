@@ -68,7 +68,7 @@ public class Checkout {
 			elem = driver.findElement(By.xpath(locatorText));
 		elem.clear();
 		elem.sendKeys(textField);
-	}
+	} 
 
 	private void ThreadSleep() {
 		try {
